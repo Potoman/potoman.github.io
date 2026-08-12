@@ -1,0 +1,71 @@
+baseURL = 'https://potoman.github.io/'
+locale = 'en-us'
+title = 'Maxime Girard'
+theme = 'PaperMod'
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  env = 'production'
+  title = 'Maxime Girard'
+  description = 'Senior Embedded Software Engineer specializing in real-time software architecture — portfolio and project write-ups.'
+  keywords = ['Maxime Girard', 'Embedded Software', 'Real Time', 'RTOS', 'Rust', 'C++', 'Portfolio']
+  author = 'Maxime Girard'
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowFullTextinRSS = true
+  ShowToc = false
+  disableSpecial1stPost = true
+  mainSections = ['posts']
+
+  [params.homeInfoParams]
+    Title = "Hi, I'm Maxime 👋"
+    Content = """
+Senior Embedded Software Engineer with 14+ years designing safety-critical embedded systems across aerospace, defense, medical and industrial sectors.
+I work mainly in **C/C++, Rust and embedded Linux**, with deep expertise in RTOS, functional safety, hypervisors and heterogeneous SoCs — from bootloaders and hardware partitioning up to the tooling that makes a team ship faster.
+
+*"I step back to understand the broader context and evaluate trade-offs before committing to a solution."*
+
+Below is a selection of personal and open-source projects I've built along the way — have a look around.
+"""
+
+  [[params.socialIcons]]
+    name = 'github'
+    title = 'GitHub'
+    url = 'https://github.com/Potoman'
+
+  [[params.socialIcons]]
+    name = 'linkedin'
+    title = 'LinkedIn'
+    url = 'https://www.linkedin.com/in/maxime-girard-2a8165139/'
+
+  [[params.socialIcons]]
+    name = 'email'
+    title = 'Email'
+    url = 'mailto:maxime.girard555@gmail.com'
+
+[menu]
+  [[menu.main]]
+    identifier = 'posts'
+    name = 'Portfolio'
+    url = '/posts/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'search'
+    name = 'Search'
+    url = '/search/'
+    weight = 20
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
