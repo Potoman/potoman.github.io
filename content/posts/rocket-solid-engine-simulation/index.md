@@ -1,6 +1,6 @@
 +++
 title = 'Rocket Project: Solid Engine Simulation'
-date = 2026-02-01T00:00:00+09:00
+date = 2026-08-12T00:00:00+09:00
 draft = false
 tags = ['Unreal Engine', 'Simulation', 'Hardware', 'Personal Project']
 summary = "Simulating a solid rocket motor's thrust profile in Unreal Engine as part of my rocket launch project."
