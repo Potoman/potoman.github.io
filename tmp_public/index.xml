@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Maxime Girard</title>
+    <link>http://localhost:42627/</link>
+    <description>Recent content on Maxime Girard</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:42627/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hardware &amp; Modeling for Rocket Launches</title>
+      <link>http://localhost:42627/posts/rocket-launch-project/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0900</pubDate>
+      <guid>http://localhost:42627/posts/rocket-launch-project/</guid>
+      <description>An ongoing hardware and modeling project exploring amateur rocket launches, from mechanical design to flight instrumentation.</description>
+      <content:encoded><![CDATA[<p>An active personal project (started 2026) combining hardware design and physical modeling to build and launch model rockets.</p>
+<p>The work spans mechanical design of the airframe and recovery system, modeling of flight dynamics to predict trajectory and apogee, and embedded instrumentation to log flight data (altitude, acceleration, orientation) during launches.</p>
+<p>It&rsquo;s a hands-on way to keep my electronics and embedded skills sharp outside of work, closing the loop from schematic to flight data.</p>
+<p><em>Status: active, ongoing.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Japanese Vocabulary Review App</title>
+      <link>http://localhost:42627/posts/japanese-vocabulary-app/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0900</pubDate>
+      <guid>http://localhost:42627/posts/japanese-vocabulary-app/</guid>
+      <description>A Python application to review Japanese vocabulary, built to support my own study toward JLPT N4.</description>
+      <content:encoded><![CDATA[<p>Since moving to Tokyo, I&rsquo;ve been learning Japanese, currently around JLPT N5-N4 level. To make vocabulary review more effective than flashcard apps I&rsquo;d tried, I built my own Python application for reviewing Japanese vocabulary.</p>
+<p>It&rsquo;s a small, focused tool tailored to how I actually study, and it&rsquo;s still under active development as my needs (and my Japanese) evolve.</p>
+<p><em>Status: active, ongoing.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Rust &#43; Vulkan Voxel Renderer</title>
+      <link>http://localhost:42627/posts/rust-vulkan-voxel/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0900</pubDate>
+      <guid>http://localhost:42627/posts/rust-vulkan-voxel/</guid>
+      <description>A small Rust program using the Vulkan API to explore voxel modeling and low-level GPU rendering.</description>
+      <content:encoded><![CDATA[<p>A small Rust program built to get hands-on with the Vulkan API and explore voxel modeling from scratch.</p>
+<p>Rust is one of my preferred languages for its strong typing and safety guarantees, and Vulkan&rsquo;s explicit, low-level control made this a great way to deepen my understanding of GPU pipelines, memory management, and rendering — skills that connect directly to the GPU/shader work I do professionally (e.g. CUDA/OpenGL pipelines for medical video overlay).</p>
+<p><strong>Stack:</strong> Rust, Vulkan</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Feature Development for the Conan Build System</title>
+      <link>http://localhost:42627/posts/conan-build-system/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0900</pubDate>
+      <guid>http://localhost:42627/posts/conan-build-system/</guid>
+      <description>Contributed a feature to the Conan C/C++ package manager, part of a broader push to bring modern build tooling into avionics development.</description>
+      <content:encoded><![CDATA[<p>While evaluating Conan and CMake as a potential replacement for a legacy proprietary build toolchain at Airbus Helicopters, I ran into gaps in Conan itself — and contributed a feature back to the project rather than working around it.</p>
+<p>This was part of a larger proof of concept where I paired Conan with CMake to demonstrate a modern, open-source alternative to an internal build pipeline, which reduced the dev/compile/flash/test workflow time by 95%.</p>
+<p><strong>Stack:</strong> Conan, CMake, C/C++</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>CMake Bug Fix Upstreamed to the Community</title>
+      <link>http://localhost:42627/posts/cmake-bugfix/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0900</pubDate>
+      <guid>http://localhost:42627/posts/cmake-bugfix/</guid>
+      <description>Found and fixed a bug in CMake, and pushed the patch upstream to the community.</description>
+      <content:encoded><![CDATA[<p>While working with CMake on embedded C/C++ projects, I ran into a bug in the tool itself. Rather than working around it locally, I tracked down the root cause, wrote a fix, and pushed the patch upstream so other users would benefit from it too.</p>
+<p><strong>Stack:</strong> CMake, C++</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Colorblind Assistance Tool for Windows</title>
+      <link>http://localhost:42627/posts/colorblind-tool/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0900</pubDate>
+      <guid>http://localhost:42627/posts/colorblind-tool/</guid>
+      <description>A Windows utility that helps color-blind users identify the color under their cursor.</description>
+      <content:encoded><![CDATA[<p>A small Windows tool built to help color-blind people identify colors on screen — pointing at any pixel and getting back a clear color name/value, rather than having to guess.</p>
+<p>A simple accessibility-focused side project, born out of wanting to solve a real, concrete problem for someone.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Android App for ENSEA Engineering School</title>
+      <link>http://localhost:42627/posts/ensea-android-app/</link>
+      <pubDate>Sat, 01 Jun 2013 00:00:00 +0900</pubDate>
+      <guid>http://localhost:42627/posts/ensea-android-app/</guid>
+      <description>An Android application built for my engineering school, ENSEA, that became widely used among students.</description>
+      <content:encoded><![CDATA[<p>Built and maintained over several years (2007-2013) during and after my time at ENSEA (École Nationale Supérieure de l&rsquo;Électronique et de ses Applications), this Android application became well known and widely used among students at the school.</p>
+<p>It was one of my first real exposures to shipping and supporting software actually used by a community, long before Android app development became part of my day job (later at Parrot Faurecia Automotive, working on AOSP services).</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Magic: The Gathering Card &amp; Deck-Building Website</title>
+      <link>http://localhost:42627/posts/magic-the-gathering-website/</link>
+      <pubDate>Thu, 01 Jun 2006 00:00:00 +0900</pubDate>
+      <guid>http://localhost:42627/posts/magic-the-gathering-website/</guid>
+      <description>A website for searching Magic: The Gathering cards, building decks, and playing online.</description>
+      <content:encoded><![CDATA[<p>One of my earliest projects: a website for searching Magic: The Gathering cards, building decks, and playing online against other people.</p>
+<p>Magic: The Gathering has been a passion of mine since college — a game about strategy, analysis, and resource management — and this project was a natural way to combine that passion with learning to build software.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bicycle Tachometer</title>
+      <link>http://localhost:42627/posts/bicycle-tachometer/</link>
+      <pubDate>Tue, 01 Jun 2004 00:00:00 +0900</pubDate>
+      <guid>http://localhost:42627/posts/bicycle-tachometer/</guid>
+      <description>My first electronics project: a homemade tachometer for a bicycle.</description>
+      <content:encoded><![CDATA[<p>My very first electronics project, built in 2004, long before my engineering studies: a homemade tachometer for a bicycle.</p>
+<p>It&rsquo;s the earliest example of the curiosity that eventually led me into embedded systems and electronics as a career — figuring out how to sense, measure, and display something in the physical world with simple, hand-built hardware.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

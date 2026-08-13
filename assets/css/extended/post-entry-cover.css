@@ -1,0 +1,24 @@
+/* Move the post-entry cover image below the summary text on list pages,
+   instead of PaperMod's default (image above the title). */
+.post-entry {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-entry .entry-header {
+    order: 1;
+}
+
+.post-entry .entry-content {
+    order: 2;
+}
+
+.post-entry .entry-cover {
+    order: 3;
+    margin-top: var(--gap);
+    margin-bottom: 0;
+}
+
+.post-entry .entry-footer {
+    order: 4;
+}

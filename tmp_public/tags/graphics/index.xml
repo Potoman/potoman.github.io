@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Graphics on Maxime Girard</title>
+    <link>http://localhost:42627/tags/graphics/</link>
+    <description>Recent content in Graphics on Maxime Girard</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Jan 2025 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:42627/tags/graphics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rust &#43; Vulkan Voxel Renderer</title>
+      <link>http://localhost:42627/posts/rust-vulkan-voxel/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0900</pubDate>
+      <guid>http://localhost:42627/posts/rust-vulkan-voxel/</guid>
+      <description>A small Rust program using the Vulkan API to explore voxel modeling and low-level GPU rendering.</description>
+      <content:encoded><![CDATA[<p>A small Rust program built to get hands-on with the Vulkan API and explore voxel modeling from scratch.</p>
+<p>Rust is one of my preferred languages for its strong typing and safety guarantees, and Vulkan&rsquo;s explicit, low-level control made this a great way to deepen my understanding of GPU pipelines, memory management, and rendering — skills that connect directly to the GPU/shader work I do professionally (e.g. CUDA/OpenGL pipelines for medical video overlay).</p>
+<p><strong>Stack:</strong> Rust, Vulkan</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

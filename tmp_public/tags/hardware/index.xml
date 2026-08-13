@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hardware on Maxime Girard</title>
+    <link>http://localhost:42627/tags/hardware/</link>
+    <description>Recent content in Hardware on Maxime Girard</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:42627/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hardware &amp; Modeling for Rocket Launches</title>
+      <link>http://localhost:42627/posts/rocket-launch-project/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0900</pubDate>
+      <guid>http://localhost:42627/posts/rocket-launch-project/</guid>
+      <description>An ongoing hardware and modeling project exploring amateur rocket launches, from mechanical design to flight instrumentation.</description>
+      <content:encoded><![CDATA[<p>An active personal project (started 2026) combining hardware design and physical modeling to build and launch model rockets.</p>
+<p>The work spans mechanical design of the airframe and recovery system, modeling of flight dynamics to predict trajectory and apogee, and embedded instrumentation to log flight data (altitude, acceleration, orientation) during launches.</p>
+<p>It&rsquo;s a hands-on way to keep my electronics and embedded skills sharp outside of work, closing the loop from schematic to flight data.</p>
+<p><em>Status: active, ongoing.</em></p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Python on Maxime Girard</title>
+    <link>http://localhost:42627/tags/python/</link>
+    <description>Recent content in Python on Maxime Girard</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:42627/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Japanese Vocabulary Review App</title>
+      <link>http://localhost:42627/posts/japanese-vocabulary-app/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0900</pubDate>
+      <guid>http://localhost:42627/posts/japanese-vocabulary-app/</guid>
+      <description>A Python application to review Japanese vocabulary, built to support my own study toward JLPT N4.</description>
+      <content:encoded><![CDATA[<p>Since moving to Tokyo, I&rsquo;ve been learning Japanese, currently around JLPT N5-N4 level. To make vocabulary review more effective than flashcard apps I&rsquo;d tried, I built my own Python application for reviewing Japanese vocabulary.</p>
+<p>It&rsquo;s a small, focused tool tailored to how I actually study, and it&rsquo;s still under active development as my needs (and my Japanese) evolve.</p>
+<p><em>Status: active, ongoing.</em></p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

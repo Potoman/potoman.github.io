@@ -4,6 +4,11 @@ date = 2026-08-12T00:00:00+09:00
 draft = false
 tags = ['Unreal Engine', 'Simulation', 'Hardware', 'Personal Project']
 summary = "Simulating a solid rocket motor's thrust profile in Unreal Engine as part of my rocket launch project."
+
+[cover]
+  image = "thrust-blueprint.png"
+  alt = "Blueprint graph applying thrust from a timeline-driven curve"
+  hiddenInSingle = true
 +++
 
 A solid rocket motor can't be throttled: its thrust over time is fixed by the propellant grain's geometry, burning hard right after ignition and tapering off as it burns down. To validate flight dynamics before any real launch, I'm modeling that thrust profile in Unreal Engine and driving the physics simulation from it.

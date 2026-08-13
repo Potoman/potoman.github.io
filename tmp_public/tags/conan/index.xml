@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Conan on Maxime Girard</title>
+    <link>http://localhost:42627/tags/conan/</link>
+    <description>Recent content in Conan on Maxime Girard</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:42627/tags/conan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Feature Development for the Conan Build System</title>
+      <link>http://localhost:42627/posts/conan-build-system/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0900</pubDate>
+      <guid>http://localhost:42627/posts/conan-build-system/</guid>
+      <description>Contributed a feature to the Conan C/C++ package manager, part of a broader push to bring modern build tooling into avionics development.</description>
+      <content:encoded><![CDATA[<p>While evaluating Conan and CMake as a potential replacement for a legacy proprietary build toolchain at Airbus Helicopters, I ran into gaps in Conan itself — and contributed a feature back to the project rather than working around it.</p>
+<p>This was part of a larger proof of concept where I paired Conan with CMake to demonstrate a modern, open-source alternative to an internal build pipeline, which reduced the dev/compile/flash/test workflow time by 95%.</p>
+<p><strong>Stack:</strong> Conan, CMake, C/C++</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

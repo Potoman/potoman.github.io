@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Electronics on Maxime Girard</title>
+    <link>http://localhost:42627/tags/electronics/</link>
+    <description>Recent content in Electronics on Maxime Girard</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Jun 2004 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:42627/tags/electronics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bicycle Tachometer</title>
+      <link>http://localhost:42627/posts/bicycle-tachometer/</link>
+      <pubDate>Tue, 01 Jun 2004 00:00:00 +0900</pubDate>
+      <guid>http://localhost:42627/posts/bicycle-tachometer/</guid>
+      <description>My first electronics project: a homemade tachometer for a bicycle.</description>
+      <content:encoded><![CDATA[<p>My very first electronics project, built in 2004, long before my engineering studies: a homemade tachometer for a bicycle.</p>
+<p>It&rsquo;s the earliest example of the curiosity that eventually led me into embedded systems and electronics as a career — figuring out how to sense, measure, and display something in the physical world with simple, hand-built hardware.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

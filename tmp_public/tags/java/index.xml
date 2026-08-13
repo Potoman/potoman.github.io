@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Java on Maxime Girard</title>
+    <link>http://localhost:42627/tags/java/</link>
+    <description>Recent content in Java on Maxime Girard</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Jun 2013 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:42627/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android App for ENSEA Engineering School</title>
+      <link>http://localhost:42627/posts/ensea-android-app/</link>
+      <pubDate>Sat, 01 Jun 2013 00:00:00 +0900</pubDate>
+      <guid>http://localhost:42627/posts/ensea-android-app/</guid>
+      <description>An Android application built for my engineering school, ENSEA, that became widely used among students.</description>
+      <content:encoded><![CDATA[<p>Built and maintained over several years (2007-2013) during and after my time at ENSEA (École Nationale Supérieure de l&rsquo;Électronique et de ses Applications), this Android application became well known and widely used among students at the school.</p>
+<p>It was one of my first real exposures to shipping and supporting software actually used by a community, long before Android app development became part of my day job (later at Parrot Faurecia Automotive, working on AOSP services).</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
