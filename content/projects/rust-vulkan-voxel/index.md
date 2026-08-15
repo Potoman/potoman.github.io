@@ -1,9 +1,14 @@
 +++
-title = 'Rust + Vulkan Voxel Renderer'
+title = '3D Engine Based on Voxelization'
 date = 2025-01-10T00:00:00+09:00
 draft = false
 tags = ['Rust', 'Vulkan', 'Graphics', 'Personal Project']
 summary = "A small Rust program using the Vulkan API to explore voxel modeling and low-level GPU rendering."
+
+[cover]
+  image = "ruxel-cover.png"
+  alt = "Ruxel voxel renderer output"
+  hiddenInSingle = true
 +++
 
 A small Rust program built to get hands-on with the Vulkan API and explore voxel modeling from scratch.

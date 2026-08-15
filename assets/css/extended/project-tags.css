@@ -1,0 +1,18 @@
+/* Tech-stack tag pills under the title on project cards (home + /projects/). */
+.entry-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+.entry-tags li {
+    display: inline-block;
+    padding: 0 10px;
+    border-radius: var(--radius);
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    color: var(--secondary);
+    font-size: 12px;
+    line-height: 26px;
+}

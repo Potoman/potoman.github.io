@@ -71,6 +71,15 @@
       </span>
       {{- end }}
     </h2>
+    {{- with .Params.tags }}
+    <ul class="entry-tags">
+      {{- range . }}
+      {{- if ne . "Personal Project" }}
+      <li>{{ . }}</li>
+      {{- end }}
+      {{- end }}
+    </ul>
+    {{- end }}
   </header>
   {{- if (ne (.Param "hideSummary") true) }}
   <div class="entry-content">
