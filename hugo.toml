@@ -9,8 +9,8 @@ theme = 'PaperMod'
 [params]
   env = 'production'
   title = 'Maxime Girard'
-  description = 'Senior Embedded Software Engineer specializing in real-time software architecture — portfolio and project write-ups.'
-  keywords = ['Maxime Girard', 'Embedded Software', 'Real Time', 'RTOS', 'Rust', 'C++', 'Portfolio']
+  description = 'Senior Embedded Software Engineer, expert in Embedded Systems, Hypervisors and RTOS — portfolio and project write-ups.'
+  keywords = ['Maxime Girard', 'Embedded Systems', 'Hypervisor', 'RTOS', 'Real Time', 'Rust', 'C++', 'Portfolio']
   author = 'Maxime Girard'
   defaultTheme = 'auto'
   ShowReadingTime = true
@@ -28,7 +28,7 @@ theme = 'PaperMod'
     Title = "Hi, I'm Maxime 👋"
     Content = """
 Senior Embedded Software Engineer with 14+ years designing safety-critical embedded systems across aerospace, defense, medical and industrial sectors.
-I work mainly in **C/C++, Rust and embedded Linux**, with deep expertise in RTOS, functional safety, hypervisors and heterogeneous SoCs — from bootloaders and hardware partitioning up to the tooling that makes a team ship faster.
+I'm an expert in **Embedded Systems, Hypervisors and RTOS**, working mainly in C/C++, Rust and embedded Linux — from bootloaders and hardware partitioning up to the tooling that makes a team ship faster.
 
 *"I step back to understand the broader context and evaluate trade-offs before committing to a solution."*
 
