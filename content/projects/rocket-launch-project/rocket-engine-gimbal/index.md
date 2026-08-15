@@ -2,6 +2,7 @@
 title = 'Rocket Project: Mounting the Engine and Making Its Direction Controllable'
 date = 2026-08-14T00:00:00+09:00
 draft = false
+type = 'posts'
 tags = ['Unreal Engine', 'Simulation', 'Hardware', 'Personal Project']
 summary = "Attaching the engine to the rocket body in Unreal Engine and giving it a controllable gimbal so its thrust direction can be steered."
 
@@ -11,7 +12,7 @@ summary = "Attaching the engine to the rocket body in Unreal Engine and giving i
   hiddenInSingle = true
 +++
 
-With the [thrust curve driving the engine's force](/posts/rocket-solid-engine-simulation/), the next step was to mount the engine inside the rocket body and let its orientation move independently of the airframe — the first piece of thrust-vector control.
+With the [thrust curve driving the engine's force](/projects/rocket-launch-project/rocket-solid-engine-simulation/), the next step was to mount the engine inside the rocket body and let its orientation move independently of the airframe — the first piece of thrust-vector control.
 
 At rest, the engine sits centered inside the body, pointed straight along the rocket's main axis.
 
@@ -25,7 +26,7 @@ Under the hood, each key press is read as a boolean and combined with delta time
 
 ![Blueprint graph reading the T/F/G/H key states and applying local rotation to the engine every tick](rotation-blueprint.png)
 
-This is part of the broader [Hardware & Modeling for Rocket Launches](/posts/rocket-launch-project/) project.
+This is part of the broader [Hardware & Modeling for Rocket Launches](/projects/rocket-launch-project/) project.
 
 **Source:** [github.com/Potoman/RocketSimulation](https://github.com/Potoman/RocketSimulation)
 

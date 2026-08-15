@@ -16,7 +16,7 @@ On the hardware side, I picked up:
 
 It's a hands-on way to keep my electronics and embedded skills sharp outside of work, closing the loop from schematic to flight data.
 
-See [Rocket Project: Solid Engine Simulation](/posts/rocket-solid-engine-simulation/) for a closer look at how the motor's thrust profile is modeled and driven in Unreal Engine, and [Rocket Project: Mounting the Engine and Making Its Direction Controllable](/posts/rocket-engine-gimbal/) for the gimbal that steers thrust direction.
+See [Rocket Project: Solid Engine Simulation](/projects/rocket-launch-project/rocket-solid-engine-simulation/) for a closer look at how the motor's thrust profile is modeled and driven in Unreal Engine, and [Rocket Project: Mounting the Engine and Making Its Direction Controllable](/projects/rocket-launch-project/rocket-engine-gimbal/) for the gimbal that steers thrust direction.
 
 **Source:** [github.com/Potoman/RocketSimulation](https://github.com/Potoman/RocketSimulation)
 

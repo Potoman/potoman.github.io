@@ -2,6 +2,7 @@
 title = 'Rocket Project: Solid Engine Simulation'
 date = 2026-08-12T00:00:00+09:00
 draft = false
+type = 'posts'
 tags = ['Unreal Engine', 'Simulation', 'Hardware', 'Personal Project']
 summary = "Simulating a solid rocket motor's thrust profile in Unreal Engine as part of my rocket launch project."
 
@@ -21,7 +22,7 @@ On Space Bar press, a Blueprint plays that timeline and, every tick, reads the c
 
 ![Blueprint graph applying thrust from a timeline-driven curve](thrust-blueprint.png)
 
-This is part of the broader [Hardware & Modeling for Rocket Launches](/posts/rocket-launch-project/) project.
+This is part of the broader [Hardware & Modeling for Rocket Launches](/projects/rocket-launch-project/) project.
 
 **Source:** [github.com/Potoman/RocketSimulation](https://github.com/Potoman/RocketSimulation)
 
