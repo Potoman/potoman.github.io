@@ -1,0 +1,30 @@
+/* Project status badge, shown to the right of the title on project cards. */
+.entry-hint-parent {
+    gap: 8px;
+}
+
+.entry-status {
+    flex-shrink: 0;
+    align-self: center;
+    padding: 2px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.entry-status.status-finished {
+    background: #2e7d32;
+    color: #fff;
+}
+
+.entry-status.status-active {
+    background: #ffb74d;
+    color: #4a2b00;
+}
+
+.entry-status.status-very-active {
+    background: #e65100;
+    color: #fff;
+}
