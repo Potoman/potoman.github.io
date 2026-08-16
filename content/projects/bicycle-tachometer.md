@@ -4,6 +4,7 @@ date = 2004-06-01T00:00:00+09:00
 draft = false
 tags = ['Electronics', 'Personal Project']
 summary = "My first electronics project: a homemade tachometer for a bicycle."
+status = 'Finished'
 +++
 
 My very first electronics project, built in 2004, long before my engineering studies: a homemade tachometer for a bicycle.

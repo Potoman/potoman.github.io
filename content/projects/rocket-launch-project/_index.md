@@ -4,6 +4,7 @@ date = 2026-01-15T00:00:00+09:00
 draft = false
 tags = ['Hardware', 'Modeling', 'Personal Project']
 summary = "An ongoing hardware and modeling project exploring amateur rocket launches, from mechanical design to flight instrumentation."
+status = 'Very Active'
 
 [cover]
   image = "engine-tilted.png"

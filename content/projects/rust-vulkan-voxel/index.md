@@ -4,6 +4,7 @@ date = 2025-01-10T00:00:00+09:00
 draft = false
 tags = ['Rust', 'Vulkan', 'Graphics', 'Shader', 'Personal Project']
 summary = "Out of pure curiosity about how voxel frameworks work under the hood, I decided to implement a small one myself, from scratch."
+status = 'Finished'
 
 [cover]
   image = "ruxel-cover.png"

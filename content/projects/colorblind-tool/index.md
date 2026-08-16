@@ -4,6 +4,7 @@ date = 2019-03-01T00:00:00+09:00
 draft = false
 tags = ['Windows', 'Accessibility', 'Personal Project']
 summary = "A Windows utility that helps color-blind users identify the color under their cursor."
+status = 'Finished'
 
 [cover]
   image = "colorblind-cover.png"

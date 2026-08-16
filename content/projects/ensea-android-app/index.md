@@ -4,6 +4,7 @@ date = 2013-06-01T00:00:00+09:00
 draft = false
 tags = ['Android', 'Java', 'Personal Project']
 summary = "An Android application built for my engineering school, ENSEA, that became widely used among students."
+status = 'Finished'
 
 [cover]
   image = "webteam-cover.png"

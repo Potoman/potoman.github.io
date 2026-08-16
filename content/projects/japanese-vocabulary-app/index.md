@@ -4,6 +4,7 @@ date = 2025-06-01T00:00:00+09:00
 draft = false
 tags = ['Python', 'Personal Project']
 summary = "A Python application to review Japanese vocabulary, built to support my own study toward JLPT N4."
+status = 'Active'
 
 [cover]
   image = "jlpt-screenshot.png"
