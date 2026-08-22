@@ -7,8 +7,8 @@ summary = "An ongoing hardware and modeling project exploring amateur rocket lau
 status = 'Very Active'
 
 [cover]
-  image = "engine-tilted.png"
-  alt = "Blueprint graph reading key states and applying local rotation to the engine"
+  image = "rocket-project-collage.png"
+  alt = "Mosaic of renders, thrust curves and blueprint graphs from the rocket launch project's dev logs"
   hiddenInSingle = true
 +++
 
