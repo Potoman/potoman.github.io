@@ -1,10 +1,15 @@
 +++
 title = 'Magic: The Gathering Search Engine by AI Recognition'
-date = 2025-01-05T00:00:00+09:00
+date = 2026-10-25T00:00:00+09:00
 draft = false
 tags = ['Machine Learning', 'Computer Vision', 'Personal Project']
 summary = "A Magic: The Gathering card search engine that identifies a card from a photo using a staged pipeline of AI models instead of one slow full-image recognition pass."
 status = 'Active'
+
+[cover]
+  image = "detected_card.png"
+  alt = "A Magic: The Gathering card detected and outlined by the YOLO Pose model"
+  hiddenInSingle = true
 +++
 
 Naive card recognition — running a single heavy model directly on the full, centered image — is slow and wasteful: most of the search space isn't even a match, so paying the full recognition cost on every candidate doesn't scale.
@@ -16,6 +21,6 @@ Instead, I built a pipeline of models applied in stages:
 
 This staged approach keeps the search fast by reserving the expensive full recognition step for the few candidates that actually survive the earlier filters.
 
-**Stack:** Machine Learning, Computer Vision
+See [Use Yolo Pose from Ultralytics](/projects/magic-tcg-ai-recognition/use-yolo-pose-from-ultralytics/) for how the corner-detection stage works and how its training dataset was generated from Scryfall without any manual labeling.
 
 **Source:** [github.com/Potoman/MtgDetector](https://github.com/Potoman/MtgDetector)
