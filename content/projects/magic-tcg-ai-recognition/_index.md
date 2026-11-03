@@ -7,8 +7,8 @@ summary = "A Magic: The Gathering card search engine that identifies a card from
 status = 'Active'
 
 [cover]
-  image = "detected_card.png"
-  alt = "A Magic: The Gathering card detected and outlined by the YOLO Pose model"
+  image = "cover.png"
+  alt = "A Magic: The Gathering card outlined by YOLO Pose, and its set symbol and mana cost detected by YOLO"
   hiddenInSingle = true
 +++
 
@@ -22,5 +22,7 @@ Instead, I built a pipeline of models applied in stages:
 This staged approach keeps the search fast by reserving the expensive full recognition step for the few candidates that actually survive the earlier filters.
 
 See [Use Yolo Pose from Ultralytics](/projects/magic-tcg-ai-recognition/use-yolo-pose-from-ultralytics/) for how the corner-detection stage works and how its training dataset was generated from Scryfall without any manual labeling.
+
+See [Detect the Set and the Mana Cost](/projects/magic-tcg-ai-recognition/detect-set-and-mana-cost/) for the set and mana cost detection features.
 
 **Source:** [github.com/Potoman/MtgDetector](https://github.com/Potoman/MtgDetector)
