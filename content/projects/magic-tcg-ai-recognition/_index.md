@@ -1,6 +1,6 @@
 +++
 title = 'Magic: The Gathering Search Engine by AI Recognition'
-date = 2026-10-25T00:00:00+09:00
+date = 2026-11-08T00:00:00+09:00
 draft = false
 tags = ['Machine Learning', 'Computer Vision', 'Personal Project']
 summary = "A Magic: The Gathering card search engine that identifies a card from a photo using a staged pipeline of AI models instead of one slow full-image recognition pass."
