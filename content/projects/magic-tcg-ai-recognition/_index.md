@@ -25,4 +25,6 @@ See [Use Yolo Pose from Ultralytics](/projects/magic-tcg-ai-recognition/use-yolo
 
 See [Detect the Set and the Mana Cost](/projects/magic-tcg-ai-recognition/detect-set-and-mana-cost/) for the set and mana cost detection features.
 
+See [Data Augmentation for the Mana Cost](/projects/magic-tcg-ai-recognition/data-augmentation-for-mana-cost/) for how a generated training set improved the mana cost detection.
+
 **Source:** [github.com/Potoman/MtgDetector](https://github.com/Potoman/MtgDetector)
