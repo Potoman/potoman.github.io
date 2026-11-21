@@ -1,14 +1,14 @@
 +++
 title = 'Magic: The Gathering Search Engine by AI Recognition'
-date = 2026-11-08T00:00:00+09:00
+date = 2026-11-22T00:00:00+09:00
 draft = false
 tags = ['Machine Learning', 'Computer Vision', 'Personal Project']
 summary = "A Magic: The Gathering card search engine that identifies a card from a photo using a staged pipeline of AI models instead of one slow full-image recognition pass."
 status = 'Very Active'
 
 [cover]
-  image = "cover.png"
-  alt = "A Magic: The Gathering card outlined by YOLO Pose, and its set symbol and mana cost detected by YOLO"
+  image = "card_found.png"
+  alt = "The Magic: The Gathering card Metalworker found from its detected mana cost, power/toughness, rarity and set"
   hiddenInSingle = true
 +++
 
@@ -26,5 +26,7 @@ See [Use Yolo Pose from Ultralytics](/projects/magic-tcg-ai-recognition/use-yolo
 See [Detect the Set and the Mana Cost](/projects/magic-tcg-ai-recognition/detect-set-and-mana-cost/) for the set and mana cost detection features.
 
 See [Data Augmentation for the Mana Cost](/projects/magic-tcg-ai-recognition/data-augmentation-for-mana-cost/) for how a generated training set improved the mana cost detection.
+
+See [Set + Rarity and Power + Toughness Detection Works](/projects/magic-tcg-ai-recognition/set-rarity-and-power-toughness-detection/) for the set with its rarity, the power/toughness detection, and the search for the matching card.
 
 **Source:** [github.com/Potoman/MtgDetector](https://github.com/Potoman/MtgDetector)
