@@ -1,0 +1,29 @@
+%%{init: {"flowchart": {"curve": "basis", "nodeSpacing": 30, "rankSpacing": 40, "padding": 22, "wrappingWidth": 400}, "themeVariables": {"fontSize": "16px", "fontFamily": "Helvetica, Arial, sans-serif"}}}%%
+flowchart TB
+    subgraph REQ["Requirement"]
+        direction LR
+        R0(["Request a requirement<br/><code>/req-new</code>"]):::entry
+        A1["<b>req-checker</b><br/>checks conflicts"]:::agent
+        A2["<b>implementer</b><br/>code + tests<br/>on a branch"]:::agent
+        A3["<b>branch-tester</b><br/>tests the<br/>candidate merge"]:::agent
+        M1[["merge<br/>into master"]]:::merge
+        A4["<b>regression-tester</b>&nbsp;<br/>retests every<br/>requirement"]:::agent
+        R0 --> A1 --> A2 --> A3 --> M1 --> A4
+        A3 -. fail .-> A2
+    end
+    subgraph FAC["Factory"]
+        direction LR
+        F0(["Request a factory change<br/><code>/update-software-factory</code>"]):::entry
+        F1["<b>factory-maintainer</b><br/>changes the factory"]:::agent
+        F2["<b>factory-doc</b><br/>updates the diagram"]:::agent
+        M2[["merge<br/>into master"]]:::merge
+        F3["<b>implementer</b><br/>adapts the code<br/>to the new rules"]:::agent
+        F0 --> F1 --> F2 --> M2 --> F3
+    end
+    REQ ~~~ FAC
+
+    classDef entry fill:#e8f0fe,stroke:#1a56c4,color:#0d2f6e,stroke-width:2px
+    classDef agent fill:#ffffff,stroke:#444,color:#111
+    classDef merge fill:#e1f1ee,stroke:#0b7663,color:#075e4f
+    style REQ fill:#fafafa,stroke:#ccc,color:#555
+    style FAC fill:#fafafa,stroke:#ccc,color:#555
